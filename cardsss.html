@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .card3{
+        transition:width 3s,transform 2s;
+        width: 50px;
+        
+    }
+    .card3:hover {
+        width: 300px;
+        transform: translate(50px,-100px);
+    }
+</style>
+</head>
+<body>
+    <div class="card1" style="width:300px ;height: 300px;border: 1px solid wheat;">
+        <h1>This is a Card</h1>
+        <hr>
+        <div card="card2" style="width: 50px;height: 50px;border: 1px solid wheat;margin-left: 10px;background-color: brown;">
+            <h2>hello</h2>
+        
+        </div>
+        <div  class="card3" style="height: 50px;border: 1px solid wheat;margin-top: 20px;margin-left: 10px;background-color: aqua;">
+        <h2>heyy</h2>
+        </div>
+
+    </div>
+</body>
+</html>
